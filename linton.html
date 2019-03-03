@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Linton</title>
+    <link rel="stylesheet" type="text/css" href="meny.css" />
+    <link rel="stylesheet" type="text/css" href="content.css" />
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+
+    <style>
+      #myDIV {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo"><a href="index.html">Pain Screening</a></h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <!-- navigationbar for all pages -->
+        <nav>
+          <script src="nav.js"></script>
+        </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <section class="form-stuff">
+      <div id="content">
+        <aside>
+          <div class="form-menu-container">
+            <div class="portfolio">
+              <a class="portfolio-item medium" href="sbst.html">
+                <h3 class="portfolio-titel">STarT Back Screening Tool</h3>
+                <div class="portfolio-text">
+                  <p>Screening av nydebuterad rygg- eller nacksmärta</p>
+                </div>
+              </a>
+              <a class="portfolio-item medium" href="#">
+                <h3 class="portfolio-titel">Linton</h3>
+                <div class="portfolio-text">
+                  <p>Formulär för att bedöma ryggsmärta</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="promo-stuff">
+      <div class="container" id="sbst">
+        <main>
+          <div class="middle-text">
+            <h2>Linton</h2>
+            <div class="portfolio-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur molestie efficitur odio quis ultricies. Ut dictum
+                ligula velit, et eleifend magna tempor sed. Nullam rhoncus
+                dictum nibh, eget finibus orci posuere vitae. Integer consequat
+                consectetur ullamcorper. Pellentesque justo sem, suscipit eu
+                sollicitudin ac, imperdiet ut turpis.
+              </p>
+            </div>
+          </div>
+        </main>
+        <form>
+          <div class="row">
+            <div class="col-color-1"></div>
+            <div class="col-color-2"><strong>Nej</strong></div>
+            <div class="col-color-3"><strong>Ja</strong></div>
+            <div class="col-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="col-2"><input type="radio" name="q1" value="0" /></div>
+            <div class="col-3"><input type="radio" name="q1" value="1" /></div>
+            <div class="col-color-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="col-color-2">
+              <input type="radio" name="q2" value="0" />
+            </div>
+            <div class="col-color-3">
+              <input type="radio" name="q2" value="1" />
+            </div>
+            <div class="col-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="col-2"><input type="radio" name="q3" value="0" /></div>
+            <div class="col-3"><input type="radio" name="q3" value="1" /></div>
+          </div>
+
+          <div class="row-padding">
+            <div class="ccol-5">
+              <input
+                type="button"
+                class="button"
+                value="Utvärdera resultat (ej klar)"
+                onclick="getScore(this.form)"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-headline">
+        <h4 id="contact">Ta kontakt med oss</h4>
+      </div>
+      <div class="footer-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          molestie efficitur odio quis ultricies. Ut dictum ligula velit, et
+          eleifend magna tempor sed. Nullam rhoncus dictum nibh, eget finibus
+          orci posuere vitae. Integer consequat consectetur ullamcorper.
+        </p>
+      </div>
+    </section>
+
+    <script typ="text/javascript" src="formscript.js"></script>
+  </body>
+</html>

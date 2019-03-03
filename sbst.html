@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Linton</title>
+    <link rel="stylesheet" type="text/css" href="meny.css" />
+    <link rel="stylesheet" type="text/css" href="content.css" />
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo"><a href="index.html">Pain Screening</a></h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <!-- navigationbar for all pages -->
+      <nav>
+        <script src="nav.js"></script>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <section class="form-stuff">
+      <div id="content">
+        <aside>
+          <div class="form-menu-container">
+            <div class="portfolio">
+              <a class="portfolio-item medium" href="#sbst">
+                <h3 class="portfolio-titel">STarT Back Screening Tool</h3>
+                <div class="portfolio-text">
+                  <p>Screening av nydebuterad rygg- eller nacksmärta</p>
+                </div>
+              </a>
+              <a class="portfolio-item medium" href="linton.html">
+                <h3 class="portfolio-titel">Linton (ej klar)</h3>
+                <div class="portfolio-text">
+                  <p>Formulär för att bedöma ryggsmärta</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="promo-stuff">
+      <div class="container" id="sbst">
+        <main>
+          <div class="middle-text">
+            <h2>Start Back Screening Tool</h2>
+            <div class="portfolio-text">
+              <p>
+                Nydebuterad rygg- och nacksmärta är en av de vanligaste
+                orsakerna till att människor söker vård och prognosen är oftast
+                mycket god. Detta formulär fångar upp faktorer som avgör om
+                prognosen riskerar att bli mer långvarig. Formuläret är
+                framtaget av Keele University och används vanligen för patienter
+                inom primärvården.
+              </p>
+            </div>
+          </div>
+        </main>
+        <form>
+          <div class="grid-container">
+            <div></div>
+            <div><strong>Nej</strong></div>
+            <div><strong>Ja</strong></div>
+            <div class="item1">
+              Min ryggsmärta har strålat ut i mitt ben/mina ben vid något
+              tillfälle de senaste två veckorna.
+            </div>
+            <div class="item1"><input type="radio" name="q1" value="0" /></div>
+            <div class="item1"><input type="radio" name="q1" value="1" /></div>
+            <div>
+              Jag har haft smärta i skuldra eller nacke vid något tillfälle de
+              senaste två veckorna.
+            </div>
+            <div>
+              <input type="radio" name="q2" value="0" />
+            </div>
+            <div>
+              <input type="radio" name="q2" value="1" />
+            </div>
+            <div class="item1">
+              Jag har bara gått korta sträckor på grund av min ryggsmärta.
+            </div>
+            <div class="item1"><input type="radio" name="q3" value="0" /></div>
+            <div class="item1"><input type="radio" name="q3" value="1" /></div>
+            <div>
+              Under de senaste två veckorna har det tagit längre tid än vanligt
+              att klä mig på grund av ryggsmärtan.
+            </div>
+            <div>
+              <input type="radio" name="q4" value="0" />
+            </div>
+            <div>
+              <input type="radio" name="q4" value="1" />
+            </div>
+            <div class="item1">
+              Det kan vara skadligt för en person med mina besvär att vara
+              fysiskt aktiv.
+            </div>
+            <div class="item1"><input type="radio" name="q5" value="0" /></div>
+            <div class="item1"><input type="radio" name="q5" value="1" /></div>
+            <div>
+              Jag har haft oroande tankar en stor del av tiden.
+            </div>
+            <div>
+              <input type="radio" name="q6" value="0" />
+            </div>
+            <div>
+              <input type="radio" name="q6" value="1" />
+            </div>
+            <div class="item1">
+              Jag upplever att min ryggsmärta är fruktansvärd och att den aldrig
+              kommer att bli bättre.
+            </div>
+            <div class="item1"><input type="radio" name="q7" value="0" /></div>
+            <div class="item1"><input type="radio" name="q7" value="1" /></div>
+            <div>
+              I allmänhet har jag inte glatt mig över de saker som jag brukar
+              glädja mig åt.
+            </div>
+            <div>
+              <input type="radio" name="q8" value="0" />
+            </div>
+            <div>
+              <input type="radio" name="q8" value="1" />
+            </div>
+          </div>
+          <!-- using grid templates here just for testing -->
+          <div class="row-padding">
+            <div class="ccol-4">
+              På det stora hela, hur besvärlig har din ryggsmärta varit de
+              senaste två veckorna?
+            </div>
+            <div class="col-color-5"><strong>Inte alls</strong></div>
+            <div class="col-color-5"><strong>Lätt</strong></div>
+            <div class="col-color-5"><strong>Måttligt</strong></div>
+            <div class="col-color-5"><strong>Väldigt mycket</strong></div>
+            <div class="col-color-5"><strong>Extremt</strong></div>
+            <div class="col-color-5">
+              <input type="radio" name="q9" value="0" />
+            </div>
+            <div class="col-color-5">
+              <input type="radio" name="q9" value="1" />
+            </div>
+            <div class="col-color-5">
+              <input type="radio" name="q9" value="2" />
+            </div>
+            <div class="col-color-5">
+              <input type="radio" name="q9" value="3" />
+            </div>
+            <div class="col-color-5">
+              <input type="radio" name="q9" value="4" />
+            </div>
+          </div>
+          <div class="row-padding">
+            <div class="ccol-5">
+              <a href="#answer">
+                <input
+                  type="button"
+                  class="button"
+                  value="Utvärdera resultat"
+                  onclick="getScore(this.form, 'answer')"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer-headline">
+            <input
+              type="hidden"
+              size="5"
+              name="percentage"
+              disabled=""
+              value="7"
+            />
+            <input type="hidden" size="5" name="percentage1" value="4" />
+            <div id="answer" class="answer-style" style="display:none"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-headline">
+        <h4 id="contact">Ta kontakt med oss</h4>
+      </div>
+      <div class="footer-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          molestie efficitur odio quis ultricies. Ut dictum ligula velit, et
+          eleifend magna tempor sed. Nullam rhoncus dictum nibh, eget finibus
+          orci posuere vitae. Integer consequat consectetur ullamcorper.
+        </p>
+      </div>
+    </section>
+
+    <script typ="text/javascript" src="formscript.js"></script>
+  </body>
+</html>
