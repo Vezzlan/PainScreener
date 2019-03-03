@@ -135,6 +135,12 @@ ul.forms-display {
   color: var(--black);
 }
 
+.promo-stuff-startpage {
+  background: var(--white);
+  padding: var(--three-pad);
+  color: var(--black);
+}
+
 aside {
   grid-area: sidebar;
   background: #e8e8e8;
